@@ -1,4 +1,5 @@
 import Sort from "./sort.js";
+import RemoveDuplicate from "./removeDuplicates.js";
 
 const Node = () => {
 	let data;
@@ -50,8 +51,9 @@ const Tree = (arr) => {
 
 	function depth(node) {}
 
-    function isBalanced() {}
+	function isBalanced() {}
 
-    function rebalance() {}
+	function rebalance() {}
 };
 
+console.log(RemoveDuplicate.removeDuplicates([4, 5, 5, 2, 1, 20]));
