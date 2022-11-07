@@ -1,3 +1,5 @@
+import Sort from "./sort.js";
+
 const Node = () => {
 	let data;
 	let leftChild;
@@ -52,3 +54,4 @@ const Tree = (arr) => {
 
     function rebalance() {}
 };
+
